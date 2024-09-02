@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://nos.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Home
   <img src="readme-images/nos-home.jpg" width="375px" alt="NOS home pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Zeldzame Romeinse munten ontdekt op Italiaans eiland 
   <img src="readme-images/nos-artikel.jpg" width="375px" alt="NOS nieuwsartikel: Zeldzame Romeinse munten ontdekt op Italiaans eiland">
  
 </details>
