@@ -119,7 +119,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   |Joanne|Tessa|Zara|Kanokphon|
   |---|---|---|---|
-  |?|?|?|Moet de hele breakdown gecode worden, mogen we px gebruiken en hoe maak in de foto's in readme scherper|
+  |?|?|?|Moet de hele breakdown gecode worden en mogen we px gebruiken|
   |?|?|?|Zijn de sterren img|
   |?|?|?|Hoe maak je de sale timer|
 
