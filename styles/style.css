@@ -57,6 +57,10 @@ header h1 {
     order: 2;
 }
 
+header a {
+    width: 1.5em;
+}
+
 header button {
     background-color: transparent;
     border: none;

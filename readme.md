@@ -106,22 +106,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-???
+De breakdownschets gingen mij wel redelijk makkelijke af. Doordat ik de 1e week er niet was, loop ik een beetje achter. Ik ben nog niet bij met de HTML code, maar denk dat ik deze weekend wel weer bij ben. Het menu en zoek bar werk al.
 
-<img src="readme_images/" width="375px" alt="Voortgang afbeelding 1.1">
-<img src="readme_images/" width="375px" alt="Voortgang afbeelding 1.2">
-<img src="readme_images/" width="375px" alt="Voortgang afbeelding 1.3">
-<img src="readme_images/" width="375px" alt="Voortgang afbeelding 1.4">
-<img src="readme_images/" width="375px" alt="Voortgang afbeelding 1.5">
+<img src="readme_images/voortgang1.1.png" width="375px" alt="Voortgang afbeelding 1.1">
+<img src="readme_images/voortgang1.2.png" width="375px" alt="Voortgang afbeelding 1.2">
+<img src="readme_images/voortgang1.3.png" width="375px" alt="Voortgang afbeelding 1.3">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   |Joanne|Tessa|Zara|Kanokphon|
   |---|---|---|---|
-  |?|?|?|Moet de hele breakdown gecode worden en mogen we px gebruiken|
-  |?|?|?|Zijn de sterren img|
-  |?|?|?|Hoe maak je de sale timer|
+  |?|Hoe krijg je tekst over plaatjes?|Hoe maak je een karacel?|Is het net als vorig jaar dat we niet de hele breakdown moeten htmlen en dat we geen px mogen gebruiken?|
+  |?|Hoe maak je een karacel?|?|k heb voor een dia show nu section+artikel gebruikt, is dat goed of kan ik beter ul+li gebruiken?|
+  |?|Een section een andere kleur geven?|?|Ik heb (review sterren) meter ding, wat moet ik geruiken in html er voor? Ik heb nu img/p gebruikt?|
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
