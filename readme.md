@@ -118,16 +118,17 @@ De breakdownschets gingen mij wel redelijk makkelijke af. Doordat ik de 1e week 
   |Joanne|Tessa|Zara|Kanokphon|
   |---|---|---|---|
   |?|Hoe krijg je tekst over plaatjes?|Hoe maak je een karacel?|Is het net als vorig jaar dat we niet de hele breakdown moeten htmlen en dat we geen px mogen gebruiken?|
-  |?|Hoe maak je een karacel?|?|k heb voor een dia show nu section+artikel gebruikt, is dat goed of kan ik beter ul+li gebruiken?|
-  |?|Een section een andere kleur geven?|?|Ik heb (review sterren) meter ding, wat moet ik geruiken in html er voor? Ik heb nu img/p gebruikt?|
+  |?|Hoe maak je een karacel?|Moeten de linkjes in de footer anders genoteerd worden?|Ik heb voor een dia show nu section+artikel gebruikt, is dat goed of kan ik beter ul+li gebruiken?|
+  |?|Een section een andere kleur geven?|Moet ik een ander bestand hebruken voor de iconen |Ik heb (review sterren) meter ding, wat moet ik geruiken in html er voor? Ik heb nu img/p gebruikt?|
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - ???
-  - ???
-  - ???
-  - ???
+  - Maak gebruik van svg voor alle iconen
+  - Karacel word naar ons via Teams gestuurt
+  - Voor de sterren kan je html img en bestanden svg gebruiken
+  - De loding/review ding kan je een div in een div voor gebruiken, waarvan je de ouder div een brete geeft en de 2e div 100%, 90% en etc.
+  - 
 
 </details>
 
@@ -143,22 +144,19 @@ De breakdownschets gingen mij wel redelijk makkelijke af. Doordat ik de 1e week 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
   
-  ???
+  Ik loop nog steeds niet op schema, ver van het. Ik had onverwachte gebeurtennis die niet ingeroosters waren, zo als een onverwachte berijfbezoek en privé zaken. Ik ben nu in gepland om aankomende vrijdag de hele dag te gaan code, zo dat ik mijn html+css af heb voor de begin van de nieuwe week.
   
-  <img src="readme_images/???" width="375px" alt="Voortgang afbeelding 2.1">
-  <img src="readme_images/???" width="375px" alt="Voortgang afbeelding 2.2">
-  <img src="readme_images/???" width="375px" alt="Voortgang afbeelding 2.3">
-  <img src="readme_images/???" width="375px" alt="Voortgang afbeelding 2.4">
-  <img src="readme_images/???" width="375px" alt="Voortgang afbeelding 2.5">
+  <img src="readme_images/voortgang2.1.png" width="375px" alt="Voortgang afbeelding 2.1">
+  <img src="readme_images/voortgang2.2.png" width="375px" alt="Voortgang afbeelding 2.2">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   |Joanne|Tessa|Zara|Kanokphon|
   |---|---|---|---|
-  |???|???|???|???|
-  |???|???|???|???|
-  |???|???|???|???|
+  |???|???|???|Hoe kan ik alle iconen dezelfde maat geven zonder dat ik de logo verander|
+  |???|???|???|Moet ik alles uit werken al ik dingen uitklap|
+  |???|???|???|Hoe kan ik de onderkant van de circels afknippen|
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
