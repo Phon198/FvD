@@ -1,3 +1,106 @@
+/* Fonts */
+/* https://www.yesstyle.com/blog/ */
+@font-face {
+    font-family: 'DM_Serif_Display';
+    src: url('https://fonts.gstatic.com/s/dmserifdisplay/v15/-nFnOHM81r4j6k0gjAW3mujVU2B2G_Bx0vrx52g.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto_Normal';
+    src: url('https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto_Bold';
+    src: url('https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
+
+/* Custom Properties */
+:root {
+    --main-color-text: #000000;
+    --text-color-2: #666666;
+    --text-color-3: #52b134;
+    --text-color-4: #ffffff;
+    --main-bg-color: #F1F2F6;
+    --bg-color-2: #ffffff;
+    --bg-color-3: #dfffd6;
+    --bg-color-4: #353535;
+    --border-color: #d9dadd;
+    --border-color-2: #38D17E;
+    --button-color: #4CAF50;
+    --button-color-2: #212121;
+    --font-family-h: 'DM_Serif_Display', sans-serif;
+    --font-family-normal: 'Roboto_Normal', sans-serif;
+    --font-family-bold: 'Roboto_Bold', sans-serif;
+}
+
+
+
+
+main{
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-bg-color);
+}
+
 main button img{
     width: 1.5em;
 }
+
+
+
+
+
+/* Similar items section */
+section:nth-last-of-type(2) {
+    display: flex;
+    gap: 0.5em;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior: contain auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 1em 0;
+    list-style: none;
+    margin: 0;
+}
+  
+section:nth-last-of-type(2) article {
+    flex-basis: 5em;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 0.25em;
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    background-color: var(--bg-color-2);
+    border-radius: 10%;
+    width: 25em;
+    height: 30em;
+}
+
+section:nth-last-of-type(2) article h3 {
+    font-size: smaller;
+}
+  
+section:nth-last-of-type(2) article img {
+    width: 10em;
+}
+  
+section :nth-last-of-type(2) article button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+  

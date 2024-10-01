@@ -21,37 +21,40 @@
     font-style: normal;
 }
 
+
+
+
+
 /* Custom Properties */
 :root {
     --main-color-text: #000000;
     --text-color-2: #666666;
     --text-color-3: #52b134;
-    --main-bg-color: #ffffff;
-    --bg-color-2: #f1f2f6;
-    --bg-color-3: #333333;
+    --text-color-4: #ffffff;
+    --main-bg-color: #F1F2F6;
+    --bg-color-2: #ffffff;
+    --bg-color-3: #dfffd6;
+    --bg-color-4: #353535;
     --border-color: #d9dadd;
+    --border-color-2: #38D17E;
+    --button-color: #4CAF50;
+    --button-color-2: #212121;
     --font-family-h: 'DM_Serif_Display', sans-serif;
     --font-family-normal: 'Roboto_Normal', sans-serif;
     --font-family-bold: 'Roboto_Bold', sans-serif;
 }
+
+
+
+
 
 /* General Styles */
 body {
     margin: 0;
 }
 
-main {
-    /* max-width: 50em; */
-    
-}
-
-section {
-    max-width: 50em;
-    margin: 0 auto;
-}
-
-section + section {
-    margin-top:1em;
+main{
+    background: var(--main-bg-color);
 }
 
 h2, h3 {
@@ -73,13 +76,15 @@ a {
     color: var(--link-color);
 }
 
-img {
-    width: 100%;
-    margin: 0.6em 0;
-    display: block;
+section{
+    margin-bottom: 3em;
 }
 
-/* Home start dia show */
+
+
+
+
+/* Dia show */
 /* https://codepen.io/shooft/pen/KKbwmao */
 section:first-of-type {
     display: flex;
@@ -98,4 +103,200 @@ section:first-of-type article {
     scroll-snap-align: center;
     display: flex;
     flex-direction: column-reverse;
+    
 }  
+
+section:first-of-type img{
+    width: 24em;
+}
+
+/*Dia show text*/
+section:first-of-type div{
+    width: 19em; 
+    height: 6em;
+    background-color: var(--bg-color-2);
+    padding: 1em;
+    margin-top: -3em;
+}
+
+
+
+
+
+/*50% off brands*/
+section:nth-of-type(2){
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+section:nth-of-type(2) img{
+    width: 11em;
+}
+
+
+
+
+
+/*Japanese beaty products link*/
+section:nth-of-type(3) {
+    position: relative;
+    text-align: center;
+}
+
+section:nth-of-type(3) img{
+    width: 23.4em;  
+    height: 9em;  
+}
+
+section:nth-of-type(3) h2, section:nth-of-type(3) p, section:nth-of-type(3) a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5em;
+    border-radius: 0.3em;
+}
+
+section:nth-of-type(3) h2 {
+    top: -5%; 
+    text-transform: uppercase;
+}
+
+section:nth-of-type(3) p {
+    top: 25%;
+}
+
+section:nth-of-type(3) a {
+    top: 70%; 
+    text-decoration: none;
+    font-weight: bold;
+    width: 5em;
+    height: 1em;
+    background-color: var(--button-color-2);
+    color: var(--text-color-4);
+    text-transform: uppercase;
+}
+
+
+
+
+
+/*Recommended categories*/
+section:nth-of-type(4){
+    display: grid;
+    place-items: center;
+    gap: 0.5em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+section:nth-of-type(4) h2{
+    font-size: small;
+}
+
+section:nth-of-type(4) img{
+    width: 5em;
+    border-radius: 50%;
+}
+
+
+
+
+
+/*The YesStylist*/
+section:nth-of-type(5){
+    background: var(--bg-color-2);
+}
+
+section:nth-of-type(5) img{
+    width: 23.4em;    
+}
+
+section:nth-of-type(5) a{  
+    background: #B8E7FB; 
+}
+
+
+
+
+
+/*Customer picks*/
+section:nth-of-type(6){
+    background: var(--bg-color-3);
+}
+
+section:nth-of-type(6) h2{
+    padding: 1em 0 0 0;
+}
+
+section:nth-of-type(6) h2, section:nth-of-type(6) p{
+    text-align: center;
+}
+
+section:nth-of-type(6) article h3{
+    text-align: left;
+    padding: 0.5em 0.5em 0 0.5em;
+}
+
+section:nth-of-type(6) article p{
+    text-align: left;
+    padding: 0 0.5em 0 0.5em;
+}
+
+section:nth-of-type(6) article{
+    background: var(--bg-color-2);
+    margin: 1em;
+    
+}
+
+section:nth-of-type(6) img{
+    width: 21.4em;    
+}
+
+section:nth-of-type(6) button {
+    padding: 0.6em 1.5em;
+    background-color: var(--button-color-2);
+    color: var(--text-color-4);
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    border-radius: 10%;
+    margin: 1em 9.3em 1em 9.3em;
+}
+
+section:nth-of-type(6) button:hover {
+    background-color: var(--button-color);
+}
+
+section:nth-of-type(6) button:active {
+    background-color: var(--button-color);
+}
+
+
+
+
+
+/*Beauty Skincare Products*/
+section:nth-of-type(7){
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+
+
+
+/*You may also be interested in*/
+section:last-of-type{
+    background: var(--bg-color-2);
+    margin-bottom: 3em;
+}
+
+section:last-of-type h2{
+    margin-left: 1em;
+}
+
+section:last-of-type a{
+    margin-left: 1em;
+}

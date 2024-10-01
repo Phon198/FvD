@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  Surface plane
+  Surface plane (hart animatie, bag geluit, dark mode)
  
 </details>
 
@@ -128,7 +128,6 @@ De breakdownschets gingen mij wel redelijk makkelijke af. Doordat ik de 1e week 
   - Karacel word naar ons via Teams gestuurt
   - Voor de sterren kan je html img en bestanden svg gebruiken
   - De loding/review ding kan je een div in een div voor gebruiken, waarvan je de ouder div een brete geeft en de 2e div 100%, 90% en etc.
-  - 
 
 </details>
 
@@ -161,10 +160,10 @@ De breakdownschets gingen mij wel redelijk makkelijke af. Doordat ik de 1e week 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - ???
-  - ???
-  - ???
-  - ???
+  - Je kan alleen de h1 benoemen en in css de maat veranderen
+  - Nee hoeft niet alles uit te werken, maar je moet wel 5 verschillende interacties gebruiken
+  - De border van de woorden groter maken en kleur geven, die je dan om hoog schuift
+  - Je kan <details> gebruiken in de footer om dingen uit te klappen in html
 
 </details>
 
@@ -209,9 +208,9 @@ De breakdownschets gingen mij wel redelijk makkelijke af. Doordat ik de 1e week 
 
   |Joanne|Tessa|Zara|Kanokphon|
   |---|---|---|---|
-  |???|???|???|???|
-  |???|???|???|???|
-  |???|???|???|???|
+  |???|???|???|Hoe krijg ik de schaduws in de hoeken|
+  |???|???|???|Ik wil de tekst onder de img, maar onder werkt niet|
+  |???|???|???|de 6e section heeft artikel en wil die wet meken, maar wekt niet|
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
